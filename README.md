@@ -1,14 +1,11 @@
-<<<<<<< HEAD
 # rest-api-bookself-dicoding
-=======
-# Bookshelf API
 
 ## Data
 
 API ini akan menyimpan data buku dengan atribut sebagai berikut:
 
 ```json
-  {
+{
     "id": "Qbax5Oy7L8WKf74l",
     "name": "Buku A",
     "year": 2010,
@@ -21,7 +18,7 @@ API ini akan menyimpan data buku dengan atribut sebagai berikut:
     "reading": false,
     "insertedAt": "2021-03-04T09:11:44.598Z",
     "updatedAt": "2021-03-04T09:11:44.598Z"
-  }
+}
 ```
 
 ## API Endpoints
@@ -238,7 +235,6 @@ API ini akan menyimpan data buku dengan atribut sebagai berikut:
               }
 ```
 
-
 ## Menjalankan Server
 
 ### 1. Konfigurasi server
@@ -247,15 +243,8 @@ Dupilkasikan file `.env.example` dan ubah namanya menjadi `.env`. Lalu atur `HOS
 
 ### 2. Jalankan server
 
-Untuk menjalankan di lingkungan **pengembangan (*development*)**, gunakan perintah:
+Untuk menjalankan di lingkungan **pengembangan (_development_)**, gunakan perintah:
 
 ```bash
-$ npm run start:dev
+$ npm run start
 ```
-
-Untuk menjalankan di lingkungan **produksi (*production*)**, gunakan perintah:
-
-```bash
-$ npm run start:prod
-```
->>>>>>> fb24388 (bookself-dicoding)
